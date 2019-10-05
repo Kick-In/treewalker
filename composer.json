@@ -1,0 +1,31 @@
+{
+    "name": "kick-in/treewalker",
+    "description": "",
+    "keywords": [],
+    "type": "library",
+    "homepage": "https://github.com/Kick-In/treewalker",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Mol",
+            "email": "sven@kick-in.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "doctrine/orm": "~2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kickin\\TreeWalker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    }
+}
