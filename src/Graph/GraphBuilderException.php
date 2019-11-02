@@ -3,8 +3,7 @@
 namespace Kickin\TreeWalker\Graph;
 
 
-use Exception;
-
-class GraphBuilderException extends Exception
+class GraphBuilderException extends GraphException
 {
+
 }
